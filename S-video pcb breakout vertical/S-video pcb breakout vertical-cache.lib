@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_KMDVLX-8S-N-1
+#
+DEF SamacSys_Parts_KMDVLX-8S-N-1 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_KMDVLX-8S-N-1" 750 200 50 H V L CNN
+F2 "KMDVLX8SN1" 750 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/222/KMDVLX-1633737.pdf" 750 0 50 H I L CNN
+F4 "Circular DIN Connectors MINI-DIN VERTICAL 8P SNAP & LOCK SOCKET" 750 -100 50 H I L CNN "Description"
+F5 "9.85" 750 -200 50 H I L CNN "Height"
+F6 "Kycon" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "KMDVLX-8S-N-1" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "806-KMDVLX-8S-N-1" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Kycon/KMDVLX-8S-N-1?qs=PzGy0jfpSMtr%252BNgrKAqlcw%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 900 0 200 L 50 50 0 0 P
+X 7 7 900 -100 200 L 50 50 0 0 P
+X 8 8 900 -200 200 L 50 50 0 0 P
+X MH1 MH1 900 -300 200 L 50 50 0 0 P
+X MH2 MH2 900 -400 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
